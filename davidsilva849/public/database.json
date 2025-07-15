@@ -1,0 +1,66 @@
+{
+  "users": [
+    {
+      "id": "5b70",
+      "username": "admin",
+      "password": "admin12345",
+      "useremail": "admi@gmail.com",
+      "role": "admin"
+    },
+    {
+      "id": "43a8",
+      "username": "david",
+      "password": "david123",
+      "useremail": "david@gmail.com",
+      "role": "user"
+    },
+    {
+      "id": "232a",
+      "username": "juan",
+      "password": "juan123",
+      "useremail": "juan@gmail.com",
+      "role": "user"
+    },
+    {
+      "id": "7088",
+      "username": "pedro",
+      "password": "pedro123",
+      "useremail": "pedro@gmail.com",
+      "role": "user"
+    }
+  ],
+  "events": [
+    {
+      "id": "f8f5",
+      "title": "concierto jazz",
+      "date": "2025-07-17",
+      "capacity": 20,
+      "registeredUsers": [
+        "david"
+      ],
+      "lugar": "plaza de la paz"
+    },
+    {
+      "id": "0062",
+      "title": "berbetronic",
+      "date": "2025-07-18",
+      "capacity": 20,
+      "lugar": "via al mar",
+      "registeredUsers": [
+        "david",
+        "juan",
+        "pedro"
+      ]
+    },
+    {
+      "id": "e2e1",
+      "title": "concierto",
+      "date": "2025-07-31",
+      "capacity": 1,
+      "lugar": "teatro",
+      "registeredUsers": [
+        "david"
+      ]
+    }
+  ]
+}
